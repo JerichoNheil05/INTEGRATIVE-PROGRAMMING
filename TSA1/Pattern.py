@@ -11,7 +11,7 @@ pattern_a()
 print("\nOutcome B:\n")
 def pattern_b():
     row = 1
-    sequence = [1, 3, 5, 6, 7]  # Tha sequence of numbers for each row
+    sequence = [1, 3, 5, 6, 7]  # The sequence of numbers for each row
     while row <= 5:
         num = sequence[row - 1] # Get the current number from the sequence
         count = 0 # Print number from the sequence in required reps
